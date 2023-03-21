@@ -1,15 +1,13 @@
-import React from 'react'
-import '../styles/App.css';
-import pic from '../NewtonSchool.jpg'
-const App = () => {
+import React from 'react';
+import ReactDOM from 'react-dom';
+import myImage from './myImage.jpg';
 
+function App() {
   return (
     <div id="navbar">
-      <div>NavBar</div>
-      <img />
+      <img src={myImage} alt="My Image" style={{ width: '130px', height: '100px', margin: '10px' }} />
     </div>
-  )
+  );
 }
 
-
-export default App;
+ReactDOM.render(<App />, document.getElementById('root'));
