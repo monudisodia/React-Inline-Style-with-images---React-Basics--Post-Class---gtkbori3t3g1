@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import myImage from './NewtonSchool.jpg';
+import myImage from '..//NewtonSchool.jpg';
 
 function App() {
   return (
