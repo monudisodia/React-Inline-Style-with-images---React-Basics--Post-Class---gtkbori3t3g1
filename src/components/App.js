@@ -5,7 +5,7 @@ import myImage from '../NewtonSchool.jpg';
 function App() {
   return (
     <div id="navbar">
-      <img src={myImage} alt="MyImage" style={{ width: '130px', height: '100px', margin: '10px' }} />
+      <img src={myImage} style={{ width: '130px', height: '100px', margin: '10px' }} />
     </div>
   );
 }
